@@ -18,3 +18,13 @@ header.heading div.head{
     padding-left: 3.7vw;
     padding-top: 1.4vw;
 }
+section.acblack{
+    height: 60vw;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+}
+section.acblack img.blimg{
+    height: 60vw;
+    width: 45vw;
+    padding-left: 24vw;
+}
