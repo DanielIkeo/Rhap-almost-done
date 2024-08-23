@@ -43,3 +43,23 @@ footer.footing div.foot{
     left: 50%;
     transform: translateX(-50%);
 }
+section.acblack{
+    height: 65vw;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+}
+section.acblack img.blimg{
+    height: 60vw;
+    width: 45vw;
+    padding-left: 24vw;
+}
+section.acblack div.tabout{
+    color: rgb(188, 156, 34);
+    padding-left: 45vw;
+    margin-top: -22vw;
+}
+section.acblack div.ttext{
+    color: white;
+    text-align: center;
+    margin-left:0vw ;
+}
