@@ -32,9 +32,49 @@ section.acblack div.tabout{
     color: rgb(188, 156, 34);
     padding-left: 45vw;
     margin-top: -22vw;
+    font-size: 1.7vw;
 }
 section.acblack div.ttext{
     color: white;
     text-align: center;
     margin-left:0vw ;
+    margin-top: 1vw;
+}
+section.news{
+    height: 65vw;
+    width: 100%;
+    background-color: black;
+}
+section.news div.title{
+    color: white;
+    font-size: 3vw;
+    margin-left: 25vw;
+    position: relative;
+}
+section.news form input{
+    margin-left: 10vw;
+}
+section.news form input.intext{
+    background-color: rgb(49, 51, 49);
+    color: white;
+    top: 3vw;
+    position: relative;
+    height: 10vw;
+    width: 80vw;
+    font-size: 3vw;
+    border-radius: 48px;
+    border: none;
+    text-indent: 3.3vw;
+}
+section.news form input.insubmit{
+    position: relative;
+    left: 61vw;
+    height: 8vw;
+    border-radius: 48px;
+    background-color: rgb(2, 2, 2);
+    border: none;
+    width: 18vw;
+    color: rgb(113, 193, 232);
+    font-size: 16px;
+    bottom: 6vw;
 }
