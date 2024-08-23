@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 /*HEADER*/
@@ -12,22 +13,22 @@ header.heading{
     position: fixed;
     z-index: 999;
 }
-header.heading div{
+header.heading a{
     display: inline-block;
     width: 100%;
     letter-spacing: 1.5vw;
     color: #BC9C22;
+    text-decoration: none;
     font-size: 2.0vw;
     margin-inline-start: 0.8vw;
 }
-header.heading div.head{
+header.heading a.head{
     display: inline-block;
     position: relative;
     width:32%;
     text-align: center;
     margin-top: 1.3vw;
 }
-
 
 /*ABOUT ME*/
 section.about{
@@ -37,7 +38,7 @@ section.about{
 }
 section.about img.hsimg{
     height: 60vw;
-    width: 39.92vw;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,13 +62,12 @@ section.about p{
 section.news{
     height: 65vw;
     width: 100%;
-    background-color: #000000;
 }
 section.news div.title{
     color: #FFFFFF;
     font-size: 3vw;
-    margin-left: 25vw;
     position: relative;
+    text-align: center;
 }
 section.news form input{
     margin-left: 10vw;
@@ -83,15 +83,16 @@ section.news form input.intext{
     border-radius: 48px;
     border: none;
     text-indent: 3.3vw;
+    margin-top: 0vw;
 }
 section.news form input.insubmit{
     position: relative;
     left: 61vw;
     height: 8vw;
+    width: 18vw;
     border-radius: 48px;
     background-color: #000000;
     border: none;
-    width: 18vw;
     color: #71C1E8;
     font-size: 1.7vw;
     font-weight: bold;
