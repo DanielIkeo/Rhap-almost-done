@@ -10,23 +10,25 @@ header.heading{
     width: 100%;
     height: 5vw;
     background-color: #373737;
+    position: fixed;
+    z-index: 999;
 }
-header.heading div{
+header.heading a{
     display: inline-block;
     width: 100%;
     letter-spacing: 1.5vw;
     color: #BC9C22;
+    text-decoration: none;
     font-size: 2.0vw;
     margin-inline-start: 0.8vw;
 }
-header.heading div.head{
+header.heading a.head{
     display: inline-block;
     position: relative;
     width:32%;
     text-align: center;
     margin-top: 1.3vw;
 }
-
 
 /*ABOUT ME*/
 section.about{
@@ -36,7 +38,7 @@ section.about{
 }
 section.about img.hsimg{
     height: 60vw;
-    width: 39.92vw;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
