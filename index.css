@@ -23,37 +23,46 @@ header.heading div.head{
     position: relative;
     width:32%;
     text-align: center;
+    margin-top: 1.3vw;
 }
 
-section.acblack{
+
+/*ABOUT ME*/
+section.about{
     height: 65vw;
     width: 100%;
-    background-color: rgb(2, 2, 2);
+    background-color: #000000;
 }
-section.acblack img.blimg{
+section.about img.hsimg{
     height: 60vw;
-    width: 45vw;
-    padding-left: 24vw;
+    width: 39.92vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-section.acblack div.tabout{
-    color: rgb(188, 156, 34);
+section.about div.tabout{
+    color: #BC9C22;
     padding-left: 45vw;
-    margin-top: -22vw;
-    font-size: 1.7vw;
+    margin-top: -21vw;
+    font-size: 2.4vw;
+    font-weight: bold;
 }
-section.acblack div.ttext{
-    color: white;
+section.about p{
+    color: #FFFFFF;
     text-align: center;
     margin-left:0vw ;
-    margin-top: 1vw;
+    margin-top: 0vw;
+    font-size: 1.5vw;
 }
+
+/*NEWSLETTER*/
 section.news{
     height: 65vw;
     width: 100%;
-    background-color: black;
+    background-color: #000000;
 }
 section.news div.title{
-    color: white;
+    color: #FFFFFF;
     font-size: 3vw;
     margin-left: 25vw;
     position: relative;
@@ -62,8 +71,8 @@ section.news form input{
     margin-left: 10vw;
 }
 section.news form input.intext{
-    background-color: rgb(49, 51, 49);
-    color: white;
+    background-color: #373737;
+    color: #FFFFFF;
     top: 3vw;
     position: relative;
     height: 10vw;
@@ -78,14 +87,14 @@ section.news form input.insubmit{
     left: 61vw;
     height: 8vw;
     border-radius: 48px;
-    background-color: rgb(2, 2, 2);
+    background-color: #000000;
     border: none;
     width: 18vw;
-    color: rgb(113, 193, 232);
-    font-size: 16px;
+    color: #71C1E8;
+    font-size: 1.7vw;
+    font-weight: bold;
     bottom: 6vw;
 }
-
 
 /*FOOTER*/
 footer.footing{
@@ -104,4 +113,5 @@ footer.footing div.foot{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 1.3vw;
 }
