@@ -99,6 +99,148 @@ section.news form input.insubmit{
     bottom: 6vw;
 }
 
+/*EVENTS*/
+section.event{
+    width: 100%;
+    height: 50vw;
+    background-image: url(ActionShot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.event div.event{
+    color: #BC9C22;
+    font-size: 3vw;
+    position: relative;
+    left: 5vw;
+}
+
+/*EVENTS TAG 1*/
+section.event div.date.one{
+    color: #71C1E8;
+    font-size: 2.5vw;
+    position: relative;
+    left: 5vw;
+    top: 5vw;
+}
+section.event div.time.one{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    left: 5vw;
+    top: 5.1vw;
+}
+section.event div.title.one{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    text-align: right;
+    top: 1vw;
+    right: 5vw;
+}
+section.event div.address.one{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    position: relative;
+    text-align: right;
+    bottom: -1vw;
+    right: 5vw;
+}
+
+/*EVENTS TAG 2*/
+section.event div.date.two{
+    color: #71C1E8;
+    font-size: 2.5vw;
+    position: relative;
+    left: 5vw;
+    top: 4vw;
+}
+section.event div.time.two{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    left: 5vw;
+    top: 4vw;
+}
+section.event div.title.two{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    text-align: right;
+    bottom: 0.5vw;
+    right: 5vw;
+}
+section.event div.address.two{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    position: relative;
+    text-align: right;
+    bottom: 0.5vw;
+    right: 5vw;
+}
+
+/*EVENT TAG 3*/
+section.event div.date.three{
+    color: #71C1E8;
+    font-size: 2.5vw;
+    position: relative;
+    left: 5vw;
+    top: 4vw;
+}
+section.event div.time.three{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    left: 5vw;
+    top: 4vw;
+}
+section.event div.title.three{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    text-align: right;
+    bottom: 0.5vw;
+    right: 5vw;
+}
+section.event div.address.three{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    position: relative;
+    text-align: right;
+    bottom: 0.5vw;
+    right: 5vw;
+}
+/*EVENT TAG 4*/
+section.event div.date.four{
+    color: #71C1E8;
+    font-size: 2.5vw;
+    position: relative;
+    top: 4vw;
+    left: 5vw;
+}
+section.event div.time.four{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    top: 4vw;
+    left: 5vw;
+}
+section.event div.title.four{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    text-align: right;
+    bottom: 0.5vw;
+    right: 5vw;
+}
+section.event div.address.four{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    position: relative;
+    text-align: right;
+    bottom: 0.5vw;
+    right: 5vw;
+}
+
 /*FOOTER*/
 footer.footing{
     width: 100%;
