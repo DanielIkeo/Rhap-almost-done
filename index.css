@@ -30,6 +30,83 @@ header.heading a.head{
     margin-top: 1.3vw;
 }
 
+/*EVENTS*/
+section.event{
+    width: 100%;
+    height: 50vw;
+    background-image: url(ActionShot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.event div.event{
+    color: #BC9C22;
+    font-size: 3vw;
+    position: relative;
+    left: 5vw;
+}
+
+/*EVENTS TAG 1*/
+section.event div.date.one{
+    color: #71C1E8;
+    font-size: 2.5vw;
+    position: relative;
+    left: 5vw;
+    top: 1vw;
+}
+section.event div.time.one{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    left: 5vw;
+    top: 1.1vw;
+}
+section.event div.title.one{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    text-align: right;
+    top: -3vw;
+    right: 5vw;
+}
+section.event div.address.one{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    position: relative;
+    text-align: right;
+    bottom: 3vw;
+    right: 5vw;
+}
+
+/*EVENTS TAG 2*/
+section.event div.date.two{
+    color: #71C1E8;
+    font-size: 2.5vw;
+    position: relative;
+    left: 5vw;
+}
+section.event div.time.two{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    left: 5vw;
+}
+section.event div.title.two{
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    position: relative;
+    text-align: right;
+    bottom: 4.5vw;
+    right: 5vw;
+}
+section.event div.address.two{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    position: relative;
+    text-align: right;
+    bottom: 4.5vw;
+    right: 5vw;
+}
+
 /*ABOUT ME*/
 section.about{
     height: 65vw;
