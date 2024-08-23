@@ -31,8 +31,8 @@ section.acblack{
     background-color: rgb(2, 2, 2);
 }
 section.acblack img.blimg{
-    height: 60vw;
-    width: 45vw;
+    height: 0vw;
+    width: 0vw;
     padding-left: 24vw;
 }
 section.acblack div.tabout{
