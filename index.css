@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 /*HEADER*/
@@ -59,13 +60,12 @@ section.about p{
 section.news{
     height: 65vw;
     width: 100%;
-    background-color: #000000;
 }
 section.news div.title{
     color: #FFFFFF;
     font-size: 3vw;
-    margin-left: 25vw;
     position: relative;
+    text-align: center;
 }
 section.news form input{
     margin-left: 10vw;
@@ -81,15 +81,16 @@ section.news form input.intext{
     border-radius: 48px;
     border: none;
     text-indent: 3.3vw;
+    margin-top: 0vw;
 }
 section.news form input.insubmit{
     position: relative;
     left: 61vw;
     height: 8vw;
+    width: 18vw;
     border-radius: 48px;
     background-color: #000000;
     border: none;
-    width: 18vw;
     color: #71C1E8;
     font-size: 1.7vw;
     font-weight: bold;
