@@ -269,3 +269,31 @@ footer.footing div.foot{
     transform: translateX(-50%);
     margin-top: 1.3vw;
 }
+footer.footing a div.youtube img{
+    position: relative;
+    height: 5vw;
+    width: 5vw;
+    bottom: 3.7vw;
+    left: 25vw;
+}
+footer.footing a div.tiktok img{
+    position: relative;
+    height: 3.5vw;
+    width: 3.5vw;
+    bottom: 8.3vw;
+    left: 12vw;
+}
+footer.footing a div.insta img{
+    position: relative;
+    height: 3.5vw;
+    width: 3.5vw;
+    bottom: 12vw;
+    left: 67vw;
+}
+footer.footing a div.faceb img{
+    position: relative;
+    height: 3.5vw;
+    width: 3.5vw;
+    bottom: 15.7vw;
+    left: 80vw;
+}
