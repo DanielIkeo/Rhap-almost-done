@@ -63,11 +63,18 @@ section.news{
     height: 65vw;
     width: 100%;
 }
+section.news img.nimg{
+    width: 35vw;
+    height: auto;
+    margin-left: 6vw;
+    margin-top: 5vw;
+}
 section.news div.title{
     color: #FFFFFF;
     font-size: 3vw;
     position: relative;
-    text-align: center;
+    margin-left: 47vw;
+    margin-top: -25vw;
 }
 section.news form input{
     margin-left: 10vw;
@@ -77,26 +84,28 @@ section.news form input.intext{
     color: #FFFFFF;
     top: 3vw;
     position: relative;
-    height: 10vw;
-    width: 80vw;
-    font-size: 3vw;
+    height: 7vw;
+    width: 50vw;
+    font-size: 2.5vw;
     border-radius: 48px;
     border: none;
     text-indent: 3.3vw;
     margin-top: 0vw;
+    margin-left: 43vw;
 }
 section.news form input.insubmit{
     position: relative;
-    left: 61vw;
-    height: 8vw;
-    width: 18vw;
+    left: 66vw;
+    height: 5.5vw;
+    width: 16vw;
     border-radius: 48px;
     background-color: #000000;
     border: none;
-    color: #71C1E8;
+    color: #BC9C22;
     font-size: 1.7vw;
     font-weight: bold;
     bottom: 6vw;
+    margin-top: 2.5vw;
 }
 
 /*EVENTS*/
