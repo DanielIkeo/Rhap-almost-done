@@ -115,7 +115,7 @@ section.news form input.insubmit{
 section.event{
     width: 100%;
     height: auto;
-    background-image: url(ActionShot.png);
+    background-image: url(images/ActionShot.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -10vw;
@@ -258,53 +258,27 @@ section.event div.address.four{
 /*FOOTER*/
 footer.footing{
     width: 100%;
-    height: 20vw;
+    height: 5vw;
     background-color: #373737;
-    left:0;
-    bottom:0;
-    position: flex;
+    position: relative;
 }
-footer.footing div.foot{
+footer.footing a{
     display: inline-block;
+    width: 15%;
+    margin-inline-start: 0vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vw;
+    padding-left: 4vw;
+}
+footer.footing div.name{
+    display: flex;
     letter-spacing: 1.5vw;
     color: #BC9C22;
     font-size: 2.0vw;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 1.3vw;
-    bottom:-15vw;
-}
-footer.footing div.links{
-    display: inline-block;
-    height: 5vw;
-    width: 5vw;
-}
-footer.footing a div.youtube img{
-    position: relative;
-    height: 5vw;
-    width: 5vw;
-    bottom: -11.1vw;
-    left: 25vw;
-}
-footer.footing a div.tiktok img{
-    position: relative;
-    height: 3.5vw;
-    width: 3.5vw;
-    bottom: -6.7vw;
-    left: 12vw;
-}
-footer.footing a div.insta img{
-    position: relative;
-    height: 3.5vw;
-    width: 3.5vw;
-    bottom: -3vw;
-    left: 67vw;
-}
-footer.footing a div.faceb img{
-    position: relative;
-    height: 3.5vw;
-    width: 3.5vw;
-    bottom: 0.7vw;
-    left: 80vw;
+    margin-left: 50%;
+    transform: translateX(-25%);
+    margin-top: -3vw;
 }
